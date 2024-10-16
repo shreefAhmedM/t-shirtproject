@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>T_shirt</title>
+  </head>
+  <body>
+   <div class="min">
+<form> 
+<div class="details">
+      <label for="full__name">Full name:</label>
+      <input type="text" placeholder="full Name" required />
+      <label for="lname">Email:</label>
+      <input type="email" placeholder="Email" required />
+</div>
+<div class="choose">
+      <label for="color__Select">Choose t-shirt color:</label>
+      <select id="color__Select" name="colors"  required>
+        <option value="" disabled selected>choose an option</option>
+        <option value="black">black</option>
+        <option value="white">white</option>
+        <option value="blue">blue</option>
+      </select>
+    </br>
+    </br> 
+      <label for="size__Select">Choose t-shirt size:</label>
+      <select id="size__Select" name="size"  required>
+        <option value="" disabled selected>choose an option</option>
+           <option value="XS">XS</option >
+           <option value="S">S</option>
+           <option value="M">M</option>
+           <option value="L">L</option>
+           <option value="XL">XL</option>
+           <option value="XXL">XXL</option>   
+      </select>
+     </br>
+     </br>
+     <label for="date">Choos delivery date:</label>
+    <input type="date" id="date" name="date" min="2024-10-16" max="2024-11-16" required>
+      </div>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+   </div>
+  </body>
+</html>
