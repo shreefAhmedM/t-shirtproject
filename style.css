@@ -34,6 +34,9 @@ select {
   border-radius: 5px;
   box-shadow: 1px 0px 3px 1px rgb(2, 9, 40);
 }
+select:focus {
+  border: 3px solid rgb(52, 88, 207);
+}
 .choose {
   font-size: 1rem;
 }
